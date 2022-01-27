@@ -95,7 +95,7 @@
       <h1 class="site-title">耀宇小站</h1>
       <span class="logo-line-after"><i></i></span>
     </a>
-      <p class="site-subtitle" itemprop="description">学习分享</p>
+      <p class="site-subtitle" itemprop="description">日常学习分享</p>
   </div>
 
   <div class="site-nav-right">
@@ -196,6 +196,27 @@
               </span>
 
           
+            <span id="/2022/01/25/java-01-basic/" class="post-meta-item leancloud_visitors" data-flag-title="java_01_basic" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2022/01/25/java-01-basic/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2022/01/25/java-01-basic/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
 
         </div>
       </header>
@@ -206,7 +227,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="Java基础-01-基本知识"><a href="#Java基础-01-基本知识" class="headerlink" title="Java基础  01  基本知识"></a>Java基础  01  基本知识</h1><h2 id="1-数据类型"><a href="#1-数据类型" class="headerlink" title="1.数据类型"></a>1.数据类型</h2><figure class="highlight arduino"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs arduino">Java有<span class="hljs-number">8</span>种基本数据类型	<span class="hljs-keyword">int</span>、<span class="hljs-keyword">short</span>、<span class="hljs-keyword">long</span>、<span class="hljs-keyword">byte</span>、<span class="hljs-keyword">float</span>、<span class="hljs-keyword">double</span>、<span class="hljs-keyword">char</span>、<span class="hljs-keyword">boolean</span><br><br>先说明以下单位之间的关系<br><br><span class="hljs-number">1</span>位 = <span class="hljs-number">1b</span>it 	<span class="hljs-number">1</span>字节=<span class="hljs-number">8</span>位=<span class="hljs-number">8b</span>it	<span class="hljs-number">1</span>字=<span class="hljs-number">2</span>字节=<span class="hljs-number">16</span>位=<span class="hljs-number">16b</span>it<br></code></pre></td></tr></table></figure>
+          <h1 id="Java基础-01-基本知识"><a href="#Java基础-01-基本知识" class="headerlink" title="Java基础  01  基本知识"></a>Java基础  01  基本知识</h1><h2 id="1-数据类型"><a href="#1-数据类型" class="headerlink" title="1.数据类型"></a>1.数据类型</h2><figure class="highlight arduino"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Java有<span class="number">8</span>种基本数据类型	<span class="keyword">int</span>、<span class="keyword">short</span>、<span class="keyword">long</span>、<span class="keyword">byte</span>、<span class="keyword">float</span>、<span class="keyword">double</span>、<span class="keyword">char</span>、<span class="keyword">boolean</span></span><br><span class="line"></span><br><span class="line">先说明以下单位之间的关系</span><br><span class="line"></span><br><span class="line"><span class="number">1</span>位 = <span class="number">1b</span>it 	<span class="number">1</span>字节=<span class="number">8</span>位=<span class="number">8b</span>it	<span class="number">1</span>字=<span class="number">2</span>字节=<span class="number">16</span>位=<span class="number">16b</span>it</span><br></pre></td></tr></table></figure>
 
 
 
@@ -220,7 +241,7 @@
 <li><p>byte    1字节</p>
 </li>
 </ul>
-<figure class="highlight maxima"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs maxima">长整型数值后有一个L或l，如400L；<br><br>十六进制数值有一个前缀<span class="hljs-number">0x</span>或者<span class="hljs-number">0X</span>，如<span class="hljs-number">0xCAFE</span><br><br>二进制加上前缀 <span class="hljs-number">0b</span>或<span class="hljs-number">0B</span>，如<span class="hljs-number">0b1001</span>是<span class="hljs-number">9</span><br></code></pre></td></tr></table></figure>
+<figure class="highlight maxima"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">长整型数值后有一个L或l，如400L；</span><br><span class="line"></span><br><span class="line">十六进制数值有一个前缀<span class="number">0x</span>或者<span class="number">0X</span>，如<span class="number">0xCAFE</span></span><br><span class="line"></span><br><span class="line">二进制加上前缀 <span class="number">0b</span>或<span class="number">0B</span>，如<span class="number">0b1001</span>是<span class="number">9</span></span><br></pre></td></tr></table></figure>
 
 
 
@@ -228,7 +249,7 @@
 <li>float    4字节    </li>
 <li>double    8字节</li>
 </ul>
-<figure class="highlight angelscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs angelscript"><span class="hljs-built_in">double</span>的精度是是<span class="hljs-built_in">float</span>的两倍<br><br><span class="hljs-built_in">float</span>类型的数值有一个后缀F或者f，如<span class="hljs-number">3.14</span>F	<br><br>注意：没有f的浮点数默认为<span class="hljs-built_in">double</span>类型！<br><br>也可以在浮点数后加后缀D或者d<br></code></pre></td></tr></table></figure>
+<figure class="highlight angelscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">double</span>的精度是是<span class="built_in">float</span>的两倍</span><br><span class="line"></span><br><span class="line"><span class="built_in">float</span>类型的数值有一个后缀F或者f，如<span class="number">3.14</span>F	</span><br><span class="line"></span><br><span class="line">注意：没有f的浮点数默认为<span class="built_in">double</span>类型！</span><br><span class="line"></span><br><span class="line">也可以在浮点数后加后缀D或者d</span><br></pre></td></tr></table></figure>
 
 <p>溢出或者出错情况如下</p>
 <ul>
@@ -239,40 +260,40 @@
 <h3 id="3-char类型"><a href="#3-char类型" class="headerlink" title="3) char类型"></a>3) char类型</h3><ul>
 <li>char 2字节</li>
 </ul>
-<figure class="highlight vbnet"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs vbnet"><span class="hljs-type">char</span>类型的字面量要用单引号括起来。<br><br>如：<span class="hljs-comment">&#x27;A&#x27;是编码值为65所对应的字符常量。它与&quot;A&quot;不同，&quot;A&quot;是包含一个字符A的字符串。</span><br><br><span class="hljs-type">char</span>类型的值还可以表示为十六进制，范围从\u0000-\Uffff；如\u03c0表示希腊字母Π<br></code></pre></td></tr></table></figure>
+<figure class="highlight vbnet"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">char</span>类型的字面量要用单引号括起来。</span><br><span class="line"></span><br><span class="line">如：<span class="comment">&#x27;A&#x27;是编码值为65所对应的字符常量。它与&quot;A&quot;不同，&quot;A&quot;是包含一个字符A的字符串。</span></span><br><span class="line"></span><br><span class="line"><span class="type">char</span>类型的值还可以表示为十六进制，范围从\u0000-\Uffff；如\u03c0表示希腊字母Π</span><br></pre></td></tr></table></figure>
 
 
 
-<h3 id="4-boolean-类型-false-和-true"><a href="#4-boolean-类型-false-和-true" class="headerlink" title="4) boolean 类型    false 和 true"></a>4) boolean 类型    false 和 true</h3><h2 id="2-变量"><a href="#2-变量" class="headerlink" title="2.变量"></a>2.变量</h2><h3 id="1-变量"><a href="#1-变量" class="headerlink" title="1) 变量"></a>1) 变量</h3><figure class="highlight nsis"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs nsis">变量名必须由字母开头并由<span class="hljs-string">&quot;字母&quot;</span>或者<span class="hljs-string">&quot;数字&quot;</span>构成的序列。<br><br>Java的<span class="hljs-string">&quot;字母&quot;</span>包括<span class="hljs-string">&#x27;A&#x27;</span>-<span class="hljs-string">&#x27;Z&#x27;</span>、<span class="hljs-string">&#x27;a&#x27;</span>-<span class="hljs-string">&#x27;z&#x27;</span>、<span class="hljs-string">&#x27;_&#x27;</span>、<span class="hljs-string">&#x27;$&#x27;</span> 或者在某种语言中表示字母的任何<span class="hljs-keyword">Unicode</span>字符<br><span class="hljs-string">&quot;数字&quot;</span>包括<span class="hljs-string">&#x27;0&#x27;</span>-<span class="hljs-string">&#x27;9&#x27;</span>和在某种语言中表示数字的任何<span class="hljs-keyword">Unicode</span>字符<br><br><span class="hljs-number">1</span>、必须以字母、下划线或者美元符号开头；<br><span class="hljs-number">2</span>、变量名必须由字母、数字、下划线组成；<br><span class="hljs-number">3</span>、变量名不可以和java关键字冲突。<br><br>java的变量的命名大小写敏感，大写和小写是不同的变量<br></code></pre></td></tr></table></figure>
+<h3 id="4-boolean-类型-false-和-true"><a href="#4-boolean-类型-false-和-true" class="headerlink" title="4) boolean 类型    false 和 true"></a>4) boolean 类型    false 和 true</h3><h2 id="2-变量"><a href="#2-变量" class="headerlink" title="2.变量"></a>2.变量</h2><h3 id="1-变量"><a href="#1-变量" class="headerlink" title="1) 变量"></a>1) 变量</h3><figure class="highlight nsis"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">变量名必须由字母开头并由<span class="string">&quot;字母&quot;</span>或者<span class="string">&quot;数字&quot;</span>构成的序列。</span><br><span class="line"></span><br><span class="line">Java的<span class="string">&quot;字母&quot;</span>包括<span class="string">&#x27;A&#x27;</span>-<span class="string">&#x27;Z&#x27;</span>、<span class="string">&#x27;a&#x27;</span>-<span class="string">&#x27;z&#x27;</span>、<span class="string">&#x27;_&#x27;</span>、<span class="string">&#x27;$&#x27;</span> 或者在某种语言中表示字母的任何<span class="keyword">Unicode</span>字符</span><br><span class="line"><span class="string">&quot;数字&quot;</span>包括<span class="string">&#x27;0&#x27;</span>-<span class="string">&#x27;9&#x27;</span>和在某种语言中表示数字的任何<span class="keyword">Unicode</span>字符</span><br><span class="line"></span><br><span class="line"><span class="number">1</span>、必须以字母、下划线或者美元符号开头；</span><br><span class="line"><span class="number">2</span>、变量名必须由字母、数字、下划线组成；</span><br><span class="line"><span class="number">3</span>、变量名不可以和java关键字冲突。</span><br><span class="line"></span><br><span class="line">java的变量的命名大小写敏感，大写和小写是不同的变量</span><br></pre></td></tr></table></figure>
 
 
 
-<h3 id="2-常量"><a href="#2-常量" class="headerlink" title="2) 常量"></a>2) 常量</h3><figure class="highlight angelscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs angelscript">用关键字<span class="hljs-keyword">final</span>修饰	如 <span class="hljs-keyword">final</span> <span class="hljs-built_in">double</span> CM_PER_INCH = <span class="hljs-number">2.54</span><br><br><span class="hljs-keyword">final</span>修饰的变量只能被赋值一次，一但赋值就不能再改，习惯上常量名用大写。<br></code></pre></td></tr></table></figure>
+<h3 id="2-常量"><a href="#2-常量" class="headerlink" title="2) 常量"></a>2) 常量</h3><figure class="highlight angelscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">用关键字<span class="keyword">final</span>修饰	如 <span class="keyword">final</span> <span class="built_in">double</span> CM_PER_INCH = <span class="number">2.54</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">final</span>修饰的变量只能被赋值一次，一但赋值就不能再改，习惯上常量名用大写。</span><br></pre></td></tr></table></figure>
 
 
 
-<h3 id="3-运算符、运算符、字符串"><a href="#3-运算符、运算符、字符串" class="headerlink" title="3) 运算符、运算符、字符串"></a>3) 运算符、运算符、字符串</h3><figure class="highlight llvm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><code class="hljs llvm">+-*/ 表示 加减乘除 若参与/的操作数都是整数则表示整数除法，否则表示浮点除法<br><br>% 取余操作<br><br>需要注意：正数被<span class="hljs-number">0</span>除会产生异常，浮点数被<span class="hljs-number">0</span>除会得到无穷大或者NaN的结果<br><br>数学函数求平方根	Math.sqrt(<span class="hljs-keyword">x</span>)<span class="hljs-comment">;	求幂运算Math.pow(x,a) 是x的a次方;</span><br><br>+<span class="hljs-operator">=</span> -<span class="hljs-operator">=</span> ++ --<br><br><span class="hljs-operator">=</span><span class="hljs-operator">=</span>：<br>a.数值类型 比值<br>b.引用类型 比地址<br><span class="hljs-symbol"></span><br><span class="hljs-symbol">equals:</span>比值<br><br>!<span class="hljs-operator">=</span>	&amp;&amp;	||<br><br><span class="hljs-keyword">x</span> &lt; y ? <span class="hljs-keyword">x</span> : y<br><br>位运算符<br>&amp; <span class="hljs-keyword">and</span>	<br>| <span class="hljs-keyword">or</span>	<br>^ 异或	<br>~ not	<br></code></pre></td></tr></table></figure>
+<h3 id="3-运算符、运算符、字符串"><a href="#3-运算符、运算符、字符串" class="headerlink" title="3) 运算符、运算符、字符串"></a>3) 运算符、运算符、字符串</h3><figure class="highlight llvm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">+-*/ 表示 加减乘除 若参与/的操作数都是整数则表示整数除法，否则表示浮点除法</span><br><span class="line"></span><br><span class="line">% 取余操作</span><br><span class="line"></span><br><span class="line">需要注意：正数被<span class="number">0</span>除会产生异常，浮点数被<span class="number">0</span>除会得到无穷大或者NaN的结果</span><br><span class="line"></span><br><span class="line">数学函数求平方根	Math.sqrt(<span class="keyword">x</span>)<span class="comment">;	求幂运算Math.pow(x,a) 是x的a次方;</span></span><br><span class="line"></span><br><span class="line">+<span class="operator">=</span> -<span class="operator">=</span> ++ --</span><br><span class="line"></span><br><span class="line"><span class="operator">=</span><span class="operator">=</span>：</span><br><span class="line">a.数值类型 比值</span><br><span class="line">b.引用类型 比地址</span><br><span class="line"><span class="symbol"></span></span><br><span class="line"><span class="symbol">equals:</span>比值</span><br><span class="line"></span><br><span class="line">!<span class="operator">=</span>	&amp;&amp;	||</span><br><span class="line"></span><br><span class="line"><span class="keyword">x</span> &lt; y ? <span class="keyword">x</span> : y</span><br><span class="line"></span><br><span class="line">位运算符</span><br><span class="line">&amp; <span class="keyword">and</span>	</span><br><span class="line">| <span class="keyword">or</span>	</span><br><span class="line">^ 异或	</span><br><span class="line">~ not	</span><br></pre></td></tr></table></figure>
 
 
 
 <h3 id="4-数值类型之间的转换"><a href="#4-数值类型之间的转换" class="headerlink" title="4) 数值类型之间的转换"></a>4) 数值类型之间的转换</h3><p><img src="./images/image-20201029204647795.png" alt="image-20201029204647795"></p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs java">两个数进行运算，低精度的自动转换为高精度<br><br>如果高精度的转换为低精度的会丢失一些信息，需要强制类型转换。 <br><span class="hljs-keyword">double</span> x = <span class="hljs-number">3.05</span>;<br><span class="hljs-keyword">int</span> a = (<span class="hljs-keyword">int</span>)x; <span class="hljs-comment">//a=3</span><br></code></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">两个数进行运算，低精度的自动转换为高精度</span><br><span class="line"></span><br><span class="line">如果高精度的转换为低精度的会丢失一些信息，需要强制类型转换。 </span><br><span class="line"><span class="keyword">double</span> x = <span class="number">3.05</span>;</span><br><span class="line"><span class="keyword">int</span> a = (<span class="keyword">int</span>)x; <span class="comment">//a=3</span></span><br></pre></td></tr></table></figure>
 
 
 
-<h3 id="5-枚举类型"><a href="#5-枚举类型" class="headerlink" title="5) 枚举类型"></a>5) 枚举类型</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">enum</span> <span class="hljs-title">Size</span></span>&#123;SMALL,MEDIUM,LARGE,EXTRA_LARGE&#125;<br></code></pre></td></tr></table></figure>
+<h3 id="5-枚举类型"><a href="#5-枚举类型" class="headerlink" title="5) 枚举类型"></a>5) 枚举类型</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">enum</span> <span class="title">Size</span></span>&#123;SMALL,MEDIUM,LARGE,EXTRA_LARGE&#125;</span><br></pre></td></tr></table></figure>
 
 
 
-<h3 id="6-字符串"><a href="#6-字符串" class="headerlink" title="6) 字符串"></a>6) 字符串</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs java">Java类库中提供的一个预定义类 String	用双引号括起来String str = <span class="hljs-string">&quot;abcdefg&quot;</span><span class="hljs-number">1.</span>子串Sting s = str.substring(<span class="hljs-number">0</span>,<span class="hljs-number">3</span>);	<span class="hljs-comment">//就是abc 第二个参数是不想被复制的第一个位置2.拼接a.直接用+	a+bb.多个字符串放在一起，用一个定界符分隔，可以用静态joinString[] stringArray = &#123;&quot;you&quot;,&quot;are&quot;,&quot;nb&quot;&#125;;String.join(&quot;-&quot;,stringArray); 或者String.join(&quot;-&quot;,&quot;S&quot;,&quot;M&quot;,&quot;L&quot;,&quot;XL&quot;);3.Java的String类型是不可变的，最多将引用指向另一个字符串，原字符串还存在4.equals检测两个字符串是否相等&quot;a&quot;.equals(str)5.空串&quot;&quot;是长度为0的字符串	6.String变量还可以存放null7.str1.compareTo( str2 ); 返回值是整型，它是先比较对应字符的大小(ASCII码顺序)，如果第一个字符和参数的第一个字符不等，结束比较，返回他们之间的差值，如果第一个字符和参数的第一个字符相等，则以第二个字符和参数的第二个字符做比较，以此类推,直至比较的字符或被比较的字符有一方结束。如果str1 == str2，则返回值 0；如果str1 &lt; str2，则返回一个小于 0 的值；如果str1 &gt; str2，则返回一个大于 0 的值</span><br></code></pre></td></tr></table></figure>
+<h3 id="6-字符串"><a href="#6-字符串" class="headerlink" title="6) 字符串"></a>6) 字符串</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Java类库中提供的一个预定义类 String	用双引号括起来String str = <span class="string">&quot;abcdefg&quot;</span><span class="number">1.</span>子串Sting s = str.substring(<span class="number">0</span>,<span class="number">3</span>);	<span class="comment">//就是abc 第二个参数是不想被复制的第一个位置2.拼接a.直接用+	a+bb.多个字符串放在一起，用一个定界符分隔，可以用静态joinString[] stringArray = &#123;&quot;you&quot;,&quot;are&quot;,&quot;nb&quot;&#125;;String.join(&quot;-&quot;,stringArray); 或者String.join(&quot;-&quot;,&quot;S&quot;,&quot;M&quot;,&quot;L&quot;,&quot;XL&quot;);3.Java的String类型是不可变的，最多将引用指向另一个字符串，原字符串还存在4.equals检测两个字符串是否相等&quot;a&quot;.equals(str)5.空串&quot;&quot;是长度为0的字符串	6.String变量还可以存放null7.str1.compareTo( str2 ); 返回值是整型，它是先比较对应字符的大小(ASCII码顺序)，如果第一个字符和参数的第一个字符不等，结束比较，返回他们之间的差值，如果第一个字符和参数的第一个字符相等，则以第二个字符和参数的第二个字符做比较，以此类推,直至比较的字符或被比较的字符有一方结束。如果str1 == str2，则返回值 0；如果str1 &lt; str2，则返回一个小于 0 的值；如果str1 &gt; str2，则返回一个大于 0 的值</span></span><br></pre></td></tr></table></figure>
 
 
 
-<h3 id="7）构建字符串"><a href="#7）构建字符串" class="headerlink" title="7）构建字符串"></a>7）构建字符串</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs java">StringBuilder builder = <span class="hljs-keyword">new</span> StringBuilder();<span class="hljs-comment">//每次添加一部分内容builder.append(ch);builder.append(str);//在需要构建字符串的时候,调用toStringString myString = builder.toString()</span><br></code></pre></td></tr></table></figure>
+<h3 id="7）构建字符串"><a href="#7）构建字符串" class="headerlink" title="7）构建字符串"></a>7）构建字符串</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">StringBuilder builder = <span class="keyword">new</span> StringBuilder();<span class="comment">//每次添加一部分内容builder.append(ch);builder.append(str);//在需要构建字符串的时候,调用toStringString myString = builder.toString()</span></span><br></pre></td></tr></table></figure>
 
 
 
-<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs dart">题外话：<span class="hljs-built_in">StringBuffer</span>、StringBuilderStringBuffer、StringBuilder和<span class="hljs-built_in">String</span>一样，也用来代表字符串。<span class="hljs-built_in">String</span>类是不可变类，任何对<span class="hljs-built_in">String</span>的改变都会引发新的<span class="hljs-built_in">String</span>对象的生成；<span class="hljs-built_in">StringBuffer</span>则是可变类，任何对它所指代的字符串的改变都不会产生新的对象。既然可变和不可变都有了，为何还有一个StringBuilder呢？相信初期的你，在进行append时，一般都会选择<span class="hljs-built_in">StringBuffer</span>吧！先说一下集合的故事，HashTable是线程安全的，很多方法都是synchronized方法，而HashMap不是线程安全的，但其在单线程程序中的性能比HashTable要高。<span class="hljs-built_in">StringBuffer</span>和StringBuilder类的区别也是如此，他们的原理和操作基本相同，区别在于StringBufferd支持并发操作，线性安全的，适合多线程中使用。StringBuilder不支持并发操作，线性不安全的，不适合多线程中使用。新引入的StringBuilder类不是线程安全的，但其在单线程中的性能比<span class="hljs-built_in">StringBuffer</span>高。<br></code></pre></td></tr></table></figure>
+<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">题外话：<span class="built_in">StringBuffer</span>、StringBuilderStringBuffer、StringBuilder和<span class="built_in">String</span>一样，也用来代表字符串。<span class="built_in">String</span>类是不可变类，任何对<span class="built_in">String</span>的改变都会引发新的<span class="built_in">String</span>对象的生成；<span class="built_in">StringBuffer</span>则是可变类，任何对它所指代的字符串的改变都不会产生新的对象。既然可变和不可变都有了，为何还有一个StringBuilder呢？相信初期的你，在进行append时，一般都会选择<span class="built_in">StringBuffer</span>吧！先说一下集合的故事，HashTable是线程安全的，很多方法都是synchronized方法，而HashMap不是线程安全的，但其在单线程程序中的性能比HashTable要高。<span class="built_in">StringBuffer</span>和StringBuilder类的区别也是如此，他们的原理和操作基本相同，区别在于StringBufferd支持并发操作，线性安全的，适合多线程中使用。StringBuilder不支持并发操作，线性不安全的，不适合多线程中使用。新引入的StringBuilder类不是线程安全的，但其在单线程中的性能比<span class="built_in">StringBuffer</span>高。</span><br></pre></td></tr></table></figure>
 
 
 
@@ -280,61 +301,61 @@
 
 
 
-<h2 id="3-输入输出"><a href="#3-输入输出" class="headerlink" title="3. 输入输出"></a>3. 输入输出</h2><h3 id="1-输入"><a href="#1-输入" class="headerlink" title="1)  输入"></a>1)  输入</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs java">Scanner in = <span class="hljs-keyword">new</span> Scanner(System.in);String name = in.nextLine();	<span class="hljs-comment">//读取一行in.next() //读取一个单词 以空白符作为分隔符in.nextInt();	//读取一个整数in.nextDouble();	//读取一个浮点数</span><br></code></pre></td></tr></table></figure>
+<h2 id="3-输入输出"><a href="#3-输入输出" class="headerlink" title="3. 输入输出"></a>3. 输入输出</h2><h3 id="1-输入"><a href="#1-输入" class="headerlink" title="1)  输入"></a>1)  输入</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Scanner in = <span class="keyword">new</span> Scanner(System.in);String name = in.nextLine();	<span class="comment">//读取一行in.next() //读取一个单词 以空白符作为分隔符in.nextInt();	//读取一个整数in.nextDouble();	//读取一个浮点数</span></span><br></pre></td></tr></table></figure>
 
 
 
-<h3 id="2-输出"><a href="#2-输出" class="headerlink" title="2) 输出"></a>2) 输出</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs java">System.out.println()	<span class="hljs-comment">//输出信息后追加一个换行System.out.print()		//输出之后不追加换行System.out.printf()		//格式化输出    如System.out.printf(&quot;%8.2f&quot;,x) 浮点数%s 字符串%d 十进制数</span><br></code></pre></td></tr></table></figure>
+<h3 id="2-输出"><a href="#2-输出" class="headerlink" title="2) 输出"></a>2) 输出</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">System.out.println()	<span class="comment">//输出信息后追加一个换行System.out.print()		//输出之后不追加换行System.out.printf()		//格式化输出    如System.out.printf(&quot;%8.2f&quot;,x) 浮点数%s 字符串%d 十进制数</span></span><br></pre></td></tr></table></figure>
 
 
 
-<h3 id="3-文件的输入输出"><a href="#3-文件的输入输出" class="headerlink" title="3) 文件的输入输出"></a>3) 文件的输入输出</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-comment">//如果文件名包含反斜杠,加一个额外的反斜杠 &quot;c:\\mydirectory\\myfile.txt&quot;Scanner in = new Scanner(Path.get(&quot;myfile.txt&quot;),&quot;UTF-8&quot;)//如果文件不存在，创建该文件PrintWriter out = new PrinterWriter(&quot;myfile.txt&quot;,&quot;UTF-8&quot;)</span><br></code></pre></td></tr></table></figure>
+<h3 id="3-文件的输入输出"><a href="#3-文件的输入输出" class="headerlink" title="3) 文件的输入输出"></a>3) 文件的输入输出</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//如果文件名包含反斜杠,加一个额外的反斜杠 &quot;c:\\mydirectory\\myfile.txt&quot;Scanner in = new Scanner(Path.get(&quot;myfile.txt&quot;),&quot;UTF-8&quot;)//如果文件不存在，创建该文件PrintWriter out = new PrinterWriter(&quot;myfile.txt&quot;,&quot;UTF-8&quot;)</span></span><br></pre></td></tr></table></figure>
 
 
 
-<h2 id="4-控制流程"><a href="#4-控制流程" class="headerlink" title="4.控制流程"></a>4.控制流程</h2><h3 id="1-块作用域"><a href="#1-块作用域" class="headerlink" title="1) 块作用域"></a>1) 块作用域</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span></span>&#123;    <span class="hljs-keyword">int</span> n;    ...    <span class="hljs-comment">//块由一对大括号括起来    &#123;	        int k;	        int n;	//不能在嵌套的块中定义同名变量 （函数可以看作一种块）    &#125;&#125;</span><br></code></pre></td></tr></table></figure>
+<h2 id="4-控制流程"><a href="#4-控制流程" class="headerlink" title="4.控制流程"></a>4.控制流程</h2><h3 id="1-块作用域"><a href="#1-块作用域" class="headerlink" title="1) 块作用域"></a>1) 块作用域</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;    <span class="keyword">int</span> n;    ...    <span class="comment">//块由一对大括号括起来    &#123;	        int k;	        int n;	//不能在嵌套的块中定义同名变量 （函数可以看作一种块）    &#125;&#125;</span></span><br></pre></td></tr></table></figure>
 
-<h3 id="2-条件语句"><a href="#2-条件语句" class="headerlink" title="2) 条件语句"></a>2) 条件语句</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-keyword">if</span>()&#123;    ...&#125;<span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span>()&#123;    ...&#125;<span class="hljs-keyword">else</span>&#123;    ...&#125;<br></code></pre></td></tr></table></figure>
+<h3 id="2-条件语句"><a href="#2-条件语句" class="headerlink" title="2) 条件语句"></a>2) 条件语句</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span>()&#123;    ...&#125;<span class="keyword">else</span> <span class="keyword">if</span>()&#123;    ...&#125;<span class="keyword">else</span>&#123;    ...&#125;</span><br></pre></td></tr></table></figure>
 
-<h3 id="3-循环语句-amp-switch"><a href="#3-循环语句-amp-switch" class="headerlink" title="3) 循环语句&amp;switch"></a>3) 循环语句&amp;switch</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-keyword">while</span>()&#123;    &#125;---------------<span class="hljs-keyword">do</span>&#123;    &#125;<span class="hljs-keyword">while</span>()---------------<span class="hljs-keyword">for</span>(<span class="hljs-keyword">int</span> i;i&lt;length;i++)&#123;    &#125;---------------<span class="hljs-comment">//list是数组或者集合for(Object obj:list)&#123;    &#125;---------------//多重选择switch(choice)&#123;    case &quot;a&quot;:        ...        break;    case &quot;b&quot;:        ...        break;    case &quot;c&quot;:        ...        break;     case &quot;d&quot;:        ...        break;          case &quot;e&quot;:        ...        break;         default:        ...        break;        &#125;</span><br></code></pre></td></tr></table></figure>
+<h3 id="3-循环语句-amp-switch"><a href="#3-循环语句-amp-switch" class="headerlink" title="3) 循环语句&amp;switch"></a>3) 循环语句&amp;switch</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">while</span>()&#123;    &#125;---------------<span class="keyword">do</span>&#123;    &#125;<span class="keyword">while</span>()---------------<span class="keyword">for</span>(<span class="keyword">int</span> i;i&lt;length;i++)&#123;    &#125;---------------<span class="comment">//list是数组或者集合for(Object obj:list)&#123;    &#125;---------------//多重选择switch(choice)&#123;    case &quot;a&quot;:        ...        break;    case &quot;b&quot;:        ...        break;    case &quot;c&quot;:        ...        break;     case &quot;d&quot;:        ...        break;          case &quot;e&quot;:        ...        break;         default:        ...        break;        &#125;</span></span><br></pre></td></tr></table></figure>
 
 
 
 <ol start="4">
 <li>循环中断</li>
 </ol>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-keyword">while</span>(a&lt;=<span class="hljs-number">100</span>)&#123;    ...   <span class="hljs-keyword">if</span>(...) <span class="hljs-keyword">break</span>;&#125;<br></code></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">while</span>(a&lt;=<span class="number">100</span>)&#123;    ...   <span class="keyword">if</span>(...) <span class="keyword">break</span>;&#125;</span><br></pre></td></tr></table></figure>
 
 <p>带标签的break</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs java">flag:	<span class="hljs-comment">//标签，必须放在希望跳出的最外层循环之前,并且紧跟一个冒号while(a&lt;=100)&#123;    ...  while()&#123;      if(...)        break flag;	//如果为false，跳转到带标签的语句块末尾，跳出所有循环之外  &#125;   &#125;</span><br></code></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">flag:	<span class="comment">//标签，必须放在希望跳出的最外层循环之前,并且紧跟一个冒号while(a&lt;=100)&#123;    ...  while()&#123;      if(...)        break flag;	//如果为false，跳转到带标签的语句块末尾，跳出所有循环之外  &#125;   &#125;</span></span><br></pre></td></tr></table></figure>
 
 
 
-<h2 id="5-大数值"><a href="#5-大数值" class="headerlink" title="5.大数值"></a>5.大数值</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-comment">//java.math包中的两个很有用的类：BigInteger和BigDecimal//使用valueOf方法可以将普通数值转换为大数值BigInteger a = BigInteger.valueOf(100);//不能使用+ - * /处理大数值BigInteger c = a.add(b);BigInteger d = c.multiply(b.add(BigInteger.valueOf(2)));	//d = c*(b+2)subtract()	//大数值差divide()	//大数值商</span><br></code></pre></td></tr></table></figure>
+<h2 id="5-大数值"><a href="#5-大数值" class="headerlink" title="5.大数值"></a>5.大数值</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//java.math包中的两个很有用的类：BigInteger和BigDecimal//使用valueOf方法可以将普通数值转换为大数值BigInteger a = BigInteger.valueOf(100);//不能使用+ - * /处理大数值BigInteger c = a.add(b);BigInteger d = c.multiply(b.add(BigInteger.valueOf(2)));	//d = c*(b+2)subtract()	//大数值差divide()	//大数值商</span></span><br></pre></td></tr></table></figure>
 
 
 
-<h2 id="6-数组"><a href="#6-数组" class="headerlink" title="6.数组"></a>6.数组</h2><h3 id="1-定义一个数组"><a href="#1-定义一个数组" class="headerlink" title="1) 定义一个数组"></a>1) 定义一个数组</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-keyword">int</span>[] a = <span class="hljs-keyword">new</span> <span class="hljs-keyword">int</span>[<span class="hljs-number">100</span>];<span class="hljs-keyword">int</span>[] a = <span class="hljs-keyword">new</span> <span class="hljs-keyword">int</span>[]&#123;<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>&#125;;	<span class="hljs-comment">//元素个数和大括号不能同时写//或者 int a[] = new int[100];//创建一个数字数组，所有元素初始化为0，boolean数组的元素会初始化为falseString[] str = new String[10];	//所有字符串初始化为nullarray.length代表数组长度</span><br></code></pre></td></tr></table></figure>
+<h2 id="6-数组"><a href="#6-数组" class="headerlink" title="6.数组"></a>6.数组</h2><h3 id="1-定义一个数组"><a href="#1-定义一个数组" class="headerlink" title="1) 定义一个数组"></a>1) 定义一个数组</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span>[] a = <span class="keyword">new</span> <span class="keyword">int</span>[<span class="number">100</span>];<span class="keyword">int</span>[] a = <span class="keyword">new</span> <span class="keyword">int</span>[]&#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>&#125;;	<span class="comment">//元素个数和大括号不能同时写//或者 int a[] = new int[100];//创建一个数字数组，所有元素初始化为0，boolean数组的元素会初始化为falseString[] str = new String[10];	//所有字符串初始化为nullarray.length代表数组长度</span></span><br></pre></td></tr></table></figure>
 
 
 
-<h3 id="2-for-each"><a href="#2-for-each" class="headerlink" title="2) for each"></a>2) for each</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-keyword">int</span>[] a;<span class="hljs-keyword">for</span>(<span class="hljs-keyword">int</span> element:a)&#123;    ...&#125;<br></code></pre></td></tr></table></figure>
+<h3 id="2-for-each"><a href="#2-for-each" class="headerlink" title="2) for each"></a>2) for each</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span>[] a;<span class="keyword">for</span>(<span class="keyword">int</span> element:a)&#123;    ...&#125;</span><br></pre></td></tr></table></figure>
 
 
 
-<h3 id="3-数组初始化-匿名数组"><a href="#3-数组初始化-匿名数组" class="headerlink" title="3) 数组初始化 匿名数组"></a>3) 数组初始化 匿名数组</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-comment">//初始化数组int[] a = &#123;2,4,6,8,13,16&#125;;//匿名数组new int[]&#123;20,24,36,48,63,76&#125;;//重新初始化aa = new int[]&#123;20,24,36,48,63,76&#125;;//相当于下面的简写int[] anonymous = &#123;20,24,36,48,63,76&#125;;a = anonymous;//注意，Java允许数组长度为0new int[0];</span><br></code></pre></td></tr></table></figure>
+<h3 id="3-数组初始化-匿名数组"><a href="#3-数组初始化-匿名数组" class="headerlink" title="3) 数组初始化 匿名数组"></a>3) 数组初始化 匿名数组</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//初始化数组int[] a = &#123;2,4,6,8,13,16&#125;;//匿名数组new int[]&#123;20,24,36,48,63,76&#125;;//重新初始化aa = new int[]&#123;20,24,36,48,63,76&#125;;//相当于下面的简写int[] anonymous = &#123;20,24,36,48,63,76&#125;;a = anonymous;//注意，Java允许数组长度为0new int[0];</span></span><br></pre></td></tr></table></figure>
 
 
 
-<h3 id="4-数组拷贝"><a href="#4-数组拷贝" class="headerlink" title="4) 数组拷贝"></a>4) 数组拷贝</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-keyword">int</span>[] a = &#123;<span class="hljs-number">1</span>,<span class="hljs-number">3</span>,<span class="hljs-number">5</span>,<span class="hljs-number">7</span>,<span class="hljs-number">9</span>&#125;;<span class="hljs-keyword">int</span>[] b = a;	<span class="hljs-comment">//此时a,b 指向同一数组b[0] = 99;	//此时a[0],b[0]都变成99//如果下把a的值拷贝到新的数组中int[] b = Arrays.copyOf(a,a.length);</span><br></code></pre></td></tr></table></figure>
+<h3 id="4-数组拷贝"><a href="#4-数组拷贝" class="headerlink" title="4) 数组拷贝"></a>4) 数组拷贝</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span>[] a = &#123;<span class="number">1</span>,<span class="number">3</span>,<span class="number">5</span>,<span class="number">7</span>,<span class="number">9</span>&#125;;<span class="keyword">int</span>[] b = a;	<span class="comment">//此时a,b 指向同一数组b[0] = 99;	//此时a[0],b[0]都变成99//如果下把a的值拷贝到新的数组中int[] b = Arrays.copyOf(a,a.length);</span></span><br></pre></td></tr></table></figure>
 
 
 
-<h3 id="5-数组排序等"><a href="#5-数组排序等" class="headerlink" title="5) 数组排序等"></a>5) 数组排序等</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-keyword">int</span>[] a = <span class="hljs-keyword">new</span> <span class="hljs-keyword">int</span>[<span class="hljs-number">1000</span>];Arrays.sort(a);	<span class="hljs-comment">//排序System.out.println(Arrays.toString(a));	//打印数组aSystem.out.println(a.toString());	//打印a的哈希码（地址）</span><br></code></pre></td></tr></table></figure>
+<h3 id="5-数组排序等"><a href="#5-数组排序等" class="headerlink" title="5) 数组排序等"></a>5) 数组排序等</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span>[] a = <span class="keyword">new</span> <span class="keyword">int</span>[<span class="number">1000</span>];Arrays.sort(a);	<span class="comment">//排序System.out.println(Arrays.toString(a));	//打印数组aSystem.out.println(a.toString());	//打印a的哈希码（地址）</span></span><br></pre></td></tr></table></figure>
 
 
 
-<h3 id="6-多维数组"><a href="#6-多维数组" class="headerlink" title="6) 多维数组"></a>6) 多维数组</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-comment">//二维数组int[][] array =&#123;    &#123;0,1,2,3&#125;,    &#123;4,5,6,7&#125;,    &#123;8,9,10,11&#125;,    &#123;12,13,14,15&#125;&#125;//不规则数组11 2 1 2 31 2 3 4int[][] array = new int[4][];for(int i=0;i&lt;4;i++)&#123;    array[i] = new int[i+1];	//分配空间&#125;</span><br></code></pre></td></tr></table></figure>
+<h3 id="6-多维数组"><a href="#6-多维数组" class="headerlink" title="6) 多维数组"></a>6) 多维数组</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//二维数组int[][] array =&#123;    &#123;0,1,2,3&#125;,    &#123;4,5,6,7&#125;,    &#123;8,9,10,11&#125;,    &#123;12,13,14,15&#125;&#125;//不规则数组11 2 1 2 31 2 3 4int[][] array = new int[4][];for(int i=0;i&lt;4;i++)&#123;    array[i] = new int[i+1];	//分配空间&#125;</span></span><br></pre></td></tr></table></figure>
 
 
       
@@ -459,6 +480,26 @@
   </div>
 
         
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
 
 
 
@@ -508,6 +549,35 @@
   
 
   
+
+
+<script>
+NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
+  NexT.utils.getScript('//unpkg.com/valine/dist/Valine.min.js', () => {
+    var GUEST = ['nick', 'mail', 'link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item => {
+      return GUEST.includes(item);
+    });
+    new Valine({
+      el         : '#valine-comments',
+      verify     : false,
+      notify     : true,
+      appId      : 'fAa33Tbd0kkPTVoOG4eXvveU-gzGzoHsz',
+      appKey     : '7Qr12v7XK9tSxP2wEO0NPqur',
+      placeholder: "Just go go",
+      avatar     : 'mm',
+      meta       : guest,
+      pageSize   : '10' || 10,
+      visitor    : true,
+      lang       : 'en, zh-cn' || 'zh-cn',
+      path       : location.pathname,
+      recordIP   : true,
+      serverURLs : ''
+    });
+  }, window.Valine);
+});
+</script>
 
 </body>
 </html>
